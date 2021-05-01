@@ -124,7 +124,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@StringSessionGen_Bot](tg://openmessage?user_id=1472531255) \nA Bot By @Discovery_Updates")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@StringSessionGen_Bot](tg://openmessage?user_id=1472531255) \nA Bot By @getunfbans")
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
@@ -159,11 +159,11 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Support Group', url='https://t.me/linux_repo'),
-                InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')
+                InlineKeyboardButton('Support Group', url='https://t.me/getunfbans'),
+                InlineKeyboardButton('Developer', url='https://t.me/dynamicsouls')
             ],
             [
-                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/Discovery_Updates'),
+                InlineKeyboardButton('Bots Updates Channel', url='https://t.me/getunfbans'),
             ]
         ]
     )
